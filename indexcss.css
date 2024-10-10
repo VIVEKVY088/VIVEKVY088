@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  header nav ul li {
+    margin: 0 20px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  header nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+  }
+  
+  .hero h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+  }
+  
+  .content-section {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .content-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .content-section h2:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: #feb47b;
+    margin: 10px auto 20px auto;
+  }
+  
+  .profile-pic img {
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+  }
+  
+  #projects .project {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  #projects .project:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .skill {
+    background-color: #ff7e5f;
+    color: white;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .skill:hover {
+    background-color: #feb47b;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+  }
+  
